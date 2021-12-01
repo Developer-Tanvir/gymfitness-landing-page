@@ -1,0 +1,156 @@
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/tanvirs.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+}
+img{
+    max-width: 100%;
+}
+.header{
+    display: flex;
+}
+.left{
+    display: inline-block;
+    
+    position: absolute;
+    left: 34px;
+    top: 18px;
+
+}
+.left img{
+    width: 60px;
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+    
+}
+.name{
+    text-align: center;
+}
+.name h2{
+    font-size: 1.6rem;
+    color: red;
+    cursor: pointer;
+}
+.name span{
+    color: #fff;
+}
+.mid{
+    border: 1px solid rgb(188, 255, 194);
+    display: block;
+    width: 42%;
+    margin: 18px auto;
+    
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+   
+
+}
+.navbar li{
+          display: inline-block;
+          font-size: 20px;
+
+
+
+}
+.navbar li a{
+   
+    text-decoration: none;
+    color: white;
+    padding: 34px 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+   
+    text-decoration: underline;
+    text-decoration-color: rgb(121, 121, 121);
+    color: rgb(130, 129, 129);
+    
+}
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+margin: 0px 9px;
+color: white;
+background-color: black;
+border: 1px solid rgb(255, 255, 255);
+padding: 4px 14px;
+border-radius: 7px;
+font-size: 15px;
+cursor: pointer;
+}
+.btn:hover{
+background-color: white;
+color: black;
+}
+.container {
+    border: 1px solid white;
+    margin: 90px 70px;
+    padding: 10px 10px;
+    width: 40%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 0px;
+    border-radius: 10px;
+    
+}
+.form-group input {
+width: 360px;
+margin: 15px;
+padding: 10px;
+border-radius: 12px;
+/* border: 1px solid #0147cd; */
+font-family: 'Baloo Bhai 2', cursive;
+text-align: center;
+}
+
+
+.container .btn{
+width: 67%;
+padding: 10px 0px;
+margin-top: 15px;
+}
+@media screen and (max-width:768px){
+    body{
+        background: url(img/tanvirs.jpg);
+        background-position: center;
+    }
+    .name h2{
+        font-size: 1rem;
+        color: red;
+        cursor: pointer;
+    }
+    .container{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        box-sizing: border-box;
+        margin-top: 100px;
+        
+        
+    }
+    .container h1{
+        font-size: 1.5rem;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .mid ul li a{
+        font-size: 1rem;
+    }
+    .btn {
+        margin: 0px -9px;
+        margin-bottom: 1rem;
+    }
+}
